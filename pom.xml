@@ -59,6 +59,8 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>FirstDockerContainer</finalName>
     </build>
+
 
 </project>
