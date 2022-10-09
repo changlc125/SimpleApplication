@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-COPY target/FirstDockerContainer.jar SimpleApplication.jar
+COPY target/FirstDockerContainer.jar FirstDockerContainer.jar
 ENTRYPOINT ["java","-jar","/FirstDockerContainer.jar"]
